@@ -1,0 +1,100 @@
+#headerWrapper, #contentMainWrapper, #logoWrapper, #cartBoxListWrapper, #ezPageBoxList, #cartBoxListWrapper ul, #ezPageBoxList ul, #mainWrapper, #popupAdditionalImage, #popupImage {
+	margin: 0em;
+	padding: 0em;
+	}
+	
+#mainWrapper {
+	/*background-color: #ffffff;*/
+	text-align: left;
+	width: 999px;
+	vertical-align: top;
+	margin:0 auto;
+	}	
+	
+#navColumnOneWrapper, #navColumnTwoWrapper, #mainWrapper {
+	margin: auto;
+	} 
+	
+		
+.header2{ border-bottom:1px solid #dddddd; padding-bottom:12px; margin:5px 0 15px;  }
+
+*:first-child+html .header2
+{
+	padding:0 30px 0 0;
+}
+
+.float-l {
+	float:left;
+}
+
+.collection-ve{ /*font:30px normal Arial, Helvetica, sans-serif;*/ /*font-family: 'PTSansRegular';*/ font-size:30px; font-weight:normal; text-transform: uppercase; color:#4a494a;}
+
+.clear {
+	clear:both;
+	line-height:0;
+	font-size:0;
+}
+
+.collection_bxcon
+{
+	float:left;
+	display:block;
+	width:319px;
+	margin:0 20px 30px 0px;
+	color: #4A494A;
+	font-size: 18px;
+	text-transform: uppercase;
+}	
+
+#productAdditionalImages .collection_bxcon, #productAdditionalImages .collection_bxcon a img
+{
+	width:157px;
+	height:105px;
+}
+
+
+.collection_viewmore_btn {
+	float:right;
+	-moz-box-shadow:inset 0px 1px 0px 0px #a4e271;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #a4e271;
+	box-shadow:inset 0px 1px 0px 0px #a4e271;
+	background-color:#107710;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #74b807;
+	display:inline-block;
+	color: #FFFFFF;
+	font-family:arial;
+	font-size:10px;
+	font-weight:bold;
+	padding:1px 10px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #528009;
+	margin-left:10px;
+}.collection_viewmore_btn:hover {
+	background-color:#77a809;
+}.collection_viewmore_btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+.collection_bxcon img {margin-bottom:15px;}
+.collection_bxcon {font-size:16px!important;}
+.collection_bxcon a {font-size:14px;line-height:24px;}
+.collection_bxcon .cd {text-transform:none;font-size:13px !important;margin-top:10px;}
+.collection_bxcon .bt {text-transform:none;font-size:13px !important}
+
+.last
+{
+	margin:0 0px 30px 0 !important;
+}
+
+.clearBoth {
+	clear: both;
+	}
+
+

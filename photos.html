@@ -1,0 +1,203 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Stealth Spliff</title>
+<link rel="shortcut icon" href="images/DD.jpeg">
+<link href="http://fonts.googleapis.com/css?family=Arvo|Open+Sans:400,300,600,700" rel="stylesheet" type="text/css" />
+
+<!-- Stylesheets -->
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="style2.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="colorbox.css" rel="stylesheet" type="text/css" media="screen" />
+
+<!-- Javascript -->
+<script type="text/javascript" src="slideshowfade.js"></script>
+<script src="jquery.min.js"></script>
+<script src="jquery.colorbox-min.js"></script>
+<script src="../jquery.colorbox.js"></script>
+
+    <style>
+      #Slideshow1 img { width:1200px; height:300px }
+    </style>
+    
+	<script>
+			$(document).ready(function(){
+				//Examples of how to assign the Colorbox event to elements
+				$(".group1").colorbox({rel:'group1'});
+				$(".group2").colorbox({rel:'group2', transition:"fade"});
+				$(".group3").colorbox({rel:'group3', transition:"elastic", width:"75%", height:"75%"});
+				$(".group4").colorbox({rel:'group4', slideshow:true});
+				$(".ajax").colorbox();
+				$(".youtube").colorbox({iframe:true, innerWidth:425, innerHeight:344});
+				$(".vimeo").colorbox({iframe:true, innerWidth:500, innerHeight:409});
+				$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+				$(".inline").colorbox({inline:true, width:"50%"});
+				$(".callbacks").colorbox({
+					onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+					onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+					onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+					onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+					onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+				});
+
+				$('.non-retina').colorbox({rel:'group5', transition:'none'})
+				$('.retina').colorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
+				
+				//Example of preserving a JavaScript event for inline calls.
+				$("#click").click(function(){ 
+					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+					return false;
+				});
+			});
+		</script>
+		
+</head>
+<body>
+
+
+	
+	<div id="menu-wrapper">
+	<div id="menu">
+		<ul>
+			<li class="current_page_item"><a href="index.html">Homepage</a></li>
+			<li><a href="/blog/index.php">Blog</a></li>
+			<li><a href="photos.html">Photos</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="links.html">Links</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+	<!-- end #menu --> 
+</div>
+
+<body onload="startTime();">
+<div id="banner">
+	
+  <script>
+
+      var imgArray = new Array();
+      imgArray[0] = "images/CloudLogo.jpg";
+      imgArray[1] = "images/bottlelable2.jpg";
+      imgArray[2] = "images/LOGO2.jpg";
+      imgArray[3] = "images/ego_battery_laser.jpg";
+
+      slideshowFade('Slideshow1','',imgArray,20,5000);
+    
+    </script>	
+</div>
+
+<div id="header-wrapper">
+	<div id="header">
+		<div id="logo">
+			<h1><a href="#">Stealth<span>Spliff</span></a></h1>
+			<p>Better breathing, better blazing</p>
+		</div>
+	</div>
+</div>
+<div id="mainWrapper">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" id="contentMainWrapper">
+  <tr>
+
+    <td valign="top">
+<!-- bof  breadcrumb -->
+
+<!-- eof breadcrumb -->
+
+
+<!-- bof upload alerts -->
+<!-- eof upload alerts -->
+
+<div class="centerColumn" id="indexCategories">
+<div class="header2">
+<div class="float-l collection-ve">Photos</div>
+<div class="clear"></div>
+</div>
+
+
+<!-- BOF: Display grid of available sub-categories, if any -->
+
+        
+    <div class="collection_bxcon"><a class="group3" href="images/CloudLogo.jpg"><img src="images/CloudLogo.jpg" alt="Venice" title=" Venice " width="319" height="212" /><br />Venice<span class="collection_viewmore_btn bt">VIEW</span></a><div class="cd">The original line from Wrapped. The Venice Collection is our line of artist wrapping paper. These designs focus on the byproducts of creating fine art.</div></div>
+        
+    <div class="collection_bxcon"><a class="group3" href="images/bottlelable2.jpg"><img src="images/bottlelable2.jpg" alt="Animal Style" title=" Animal Style " width="319" height="212" /><br />Animal Style</span><span class="collection_viewmore_btn bt">VIEW</span></a><div class="cd">This line of designer wrapping paper features exotic hides, skins, furs and phalanges. Our high quality cameras capture the natural essence and beautiful detail of the fur, giving it a three-dimensional feel. Wrap your gifts in exotic prints and take a walk on the wild side.</div></div>
+        
+    <div class="collection_bxcon last"><a class="group3" href="images/LOGO2.jpg"><img src="images/LOGO2.jpg" alt="Carbon" title=" Carbon " width="319" height="212" /><br />Carbon</a><a href="#" class="collection_viewmore_btn bt">VIEW</a><div class="cd">Carbon is our high-end series based on the fundamental building blocks of life on earth.</div></div>
+<br class="clearBoth" />
+
+        
+    <div class="collection_bxcon"><a class="group3" href="images/bottlelable2.jpg"><img src="images/bottlelable2.jpg" alt="Eye Candy" title=" Eye Candy " width="319" height="212" /><br />Eye Candy<span class="collection_viewmore_btn bt">VIEW</span></a><div class="cd">Eye candy is an experimental line where we reinvent classic stationery designs. We take conventional patterns, such as polka dots and stripes, and apply an artist’s touch to give the wrapping paper a custom, high-end feel. The result is a familiar design that is transformed into something truly extraordinary.</div></div>
+        
+    <div class="collection_bxcon"><a class="group3" href="images/CloudLogo.jpg"><img src="images/CloudLogo.jpg" alt="Metropolis" title=" Metropolis " width="319" height="212" /><br />Metropolis<span class="collection_viewmore_btn bt">VIEW</span></a><div class="cd">Metropolis is a series of luxury gift wrap that captures the abundance of beautiful patterns & textures that exist within the modern urban landscape.</div></div>
+        
+    <div class="collection_bxcon last"><a class="group3" href="images/LOGO2.jpg"><img src="images/LOGO2.jpg" alt="Post Cards" title="Post Cards" width="319" height="212" /><br />Post Cards<span class="collection_viewmore_btn bt">VIEW</span></a><div class="cd">Our newest line features high quality wrapping designs in the form of customizable postcard sets. Each postcard assortment showcases a hand-selected mix of Wrapped’s Venice, Animal Style, Carbon and Eye Candy lines. Each postcard features a clean writing canvas to cater your card to any occasion.</div></div>
+<br class="clearBoth" />
+
+        
+    <div class="collection_bxcon"><a class="group3" href="images/CloudLogo.jpg"><img src="images/CloudLogo.jpg" alt="Journals" title=" Journals " width="319" height="212" /><br />Journals<span class="collection_viewmore_btn bt">VIEW</span></a><div class="cd">Wrapped ventures in to designer journals. Each unique journal is a high resolution photograph. The inside pages take the design a step further with an original Wrapped image for each of the 8 styles. Really great journals from Wrapped.</div></div>
+        
+    <div class="collection_bxcon"><a class="group3" href="images/LOGO2.jpg"><img src="images/LOGO2.jpg" alt="Wall Decals" title=" Wall Decals " width="319" height="212" /><br />Wall Decals<span class="collection_viewmore_btn bt">VIEW</span></a><div class="cd">Wall Decals from Wrapped + Blik as seen in The New York Times.</div></div>
+        
+    <div class="collection_bxcon last"><a class="group3" href="images/bottlelable2.jpg"><img src="images/bottlelable2.jpg" alt="Gift Tags" title=" Gift Tags " width="319" height="212" /><br />Gift Tags<span class="collection_viewmore_btn bt">VIEW</span></a><div class="cd">Wrapped introduces gift tags. Each set comes complete with 6 unique designs, blank matte back for easy writing, and a 5" black and white string.</div></div>
+<br class="clearBoth" />
+
+        
+    <div class="collection_bxcon"><a class="group3" href="images/CloudLogo.jpg"><img src="images/CloudLogo.jpg" alt="Notepads" title=" Notepads " width="319" height="212" /><br />Notepads<span class="collection_viewmore_btn bt">VIEW</span></a><div class="cd">The Wrapped line of notepads offer an eye catching design to make your important notes stand out.</div></div>
+        
+    <div class="collection_bxcon"><a class="group3" href="images/bottlelable2.jpg"><img src="images/bottlelable2.jpg" alt="Placements" title=" Placements " width="319" height="212" /><br />Placements<span class="collection_viewmore_btn bt">VIEW</span></a><div class="cd">Wrapped brings you one time use tear-off paper placemat pads. Each pad comes with four colorful designs, in sequence, on a 48-sheet pad of uncoated paper. When you want to change the look of your table or your placemat gets dirty, simply tear off a clean sheet and repeat.</div></div>
+<br class="clearBoth" />
+ 
+<!-- EOF: Display grid of available sub-categories -->
+
+<script>
+    jQuery('a.gallery').colorbox({ opacity:0.5 , rel:'group1' });
+</script>
+<!-- bof: featured products  -->
+<!-- eof: featured products  -->
+
+
+
+
+
+
+<!-- bof: specials -->
+<!-- eof: specials -->
+
+
+
+
+
+
+</div>
+
+
+</td>
+
+  </tr>
+</table>
+
+</div>
+
+<div id="footer">
+	<p>&copy; 2013 Stealthspliff.com. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://www.freecsstemplates.org">FCT</a>.</p>
+</div>
+<!-- end #footer -->
+
+		<div style='display:none'>
+			<div id='inline_content' style='padding:10px; background:#fff;'>
+			<p><strong>This content comes from a hidden element on this page.</strong></p>
+			<p>The inline option preserves bound JavaScript events and changes, and it puts the content back where it came from when it is closed.</p>
+			<p><a id="click" href="#" style='padding:5px; background:#ccc;'>Click me, it will be preserved!</a></p>
+			
+			<p><strong>If you try to open a new Colorbox while it is already open, it will update itself with the new content.</strong></p>
+			<p>Updating Content Example:<br />
+			<a class="ajax" href="../content/ajax.html">Click here to load new content</a></p>
+			</div>
+		</div>
+		
+	</body>
+		</html>
+	
