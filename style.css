@@ -223,6 +223,11 @@ a:hover {
 	margin-left: 100px;
 }
 
+#content3 {
+	float: left;
+	width: 800px;
+}
+
 .post {
 	margin-bottom: 15px;
 	padding: 30px 40px;
